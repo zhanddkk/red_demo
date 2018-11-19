@@ -20,4 +20,16 @@
 		<nature>org.robotframework.ide.eclipse.main.plugin.robotNature</nature>
 		<nature>org.python.pydev.pythonNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>TestLib</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>TestLib/LibDemo.py</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TestLib/LibDemo.py</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
