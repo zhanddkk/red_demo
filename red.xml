@@ -3,8 +3,10 @@
     <configVersion>2</configVersion>
     <relativeTo>WORKSPACE</relativeTo>
     <referencedLibrary type="PYTHON" name="LibUc" path="robot_framework_MIT_demo/lib"/>
-    <referencedLibrary type="PYTHON" name="LibDemo" path="TestLib"/>
-    <pythonpath/>
+    <referencedLibrary type="PYTHON" name="TestLib.LibDemo" path=""/>
+    <pythonpath>
+        <path location="TestLib"/>
+    </pythonpath>
     <classpath/>
     <excludedForValidation/>
     <isValidatedFileSizeCheckingEnabled>true</isValidatedFileSizeCheckingEnabled>
