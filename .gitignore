@@ -99,8 +99,11 @@ ENV/
 
 # mypy
 .mypy_cache/
-/libspecs/
+*libspecs
 
 report.html
 output.xml
 log.html
+
+.idea
+.metadata
